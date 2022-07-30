@@ -1,0 +1,189 @@
+/* common styles */
+
+.header {
+    height: 60px;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    height: 60px;
+    padding: 15px 15px;
+    
+}
+
+.logo {
+    flex: 2;
+    height: 35px;
+    width: 300px;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.links-wrapper {
+    flex: 2;
+    color: white;
+    justify-content: center;
+    padding: 10px 10px;
+    font-weight: 600;
+
+}
+
+
+.spark {
+    flex: 2;
+    color: grey;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.create {
+    flex: 1;
+    color: white;
+}
+
+.search-icon {
+    flex: 1;
+    color: grey;
+}
+
+.log-in {
+    flex: 1;
+    color: white;
+}
+
+.sign-up {
+    flex: 1;
+    color: white;
+}
+
+.grey-button {
+    background-color: rgb(89, 94, 103);
+    display: table-cell;
+    border-radius: 5px;
+    padding: 20px 30px;
+    border: none;
+    color: white;
+    font-weight: bold; 
+}
+
+.mb {
+    background-color: black;
+    color: grey;
+    border: none;
+    font-size: xx-large;
+    padding: 10px 30px;
+}
+
+.explore {
+    color: rgb(227, 227, 104);
+}
+
+.green-arrow {
+    color: greenyellow;
+    font-size: large;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 10px;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(61, 60, 70);
+    height: 450px;
+    flex-direction: row;
+    box-shadow: inset 125px 0px 500px black;
+}
+
+.cft {
+    padding: 50px 50px;
+    color: white;
+}
+
+.cfe {
+    padding: 50px 50px;
+    color: white;
+}
+
+.cfp {
+    padding: 50px 50px;
+    color: white;
+}
+
+.cfw {
+    padding: 50px 50px;
+    color: white;
+}
+
+.bottom-table {
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(47, 42, 42);
+    table-layout: fixed;
+}
+
+.footer {
+    height:100px;
+    width: 100%;background-color: black;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.lame-words {
+    color: white;
+    font-size: x-large;
+    flex: 5;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+.gb {
+    color: black;
+    background-color: rgb(61, 205, 97);
+    border: none;
+    font-size: x-large;
+    padding: 15px 15px;
+    border-radius: 3px;
+}
+
+.bb {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: x-large;
+    padding: 15px 15px;
+    border-radius: 3px;
+}
+
+.right {
+    color: white;
+    font-size: large;
+    font-size: 1em;
+    flex: 5;
+    padding-top: 2%;
+}
+
+.right-image {
+    height: 400px;
+}
+
+.goof {
+    color:rgb(64, 224, 252);
+}
+
+.light-blue {
+    color: aqua;
+}
+
+
